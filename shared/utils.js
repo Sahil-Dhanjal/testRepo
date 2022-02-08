@@ -10,7 +10,7 @@ class Reticle extends THREE.Object3D {
 
     this.loader = new THREE.GLTFLoader();
     this.loader.load(
-      "https://immersive-web.github.io/webxr-samples/media/gltf/reticle/reticle.gltf",
+      "https://foodassets.s3.ap-south-1.amazonaws.com/scene.gltf",
       (gltf) => {
         this.add(gltf.scene);
       }
